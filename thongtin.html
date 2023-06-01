@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo/AdminLTELogo.png">
+    <title>2023-HanaPower</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- link font chữ -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <!-- link icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/trangchu.css">
+    <link rel="stylesheet" href="./css/thongtin.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.5/css/lightslider.min.css" rel="stylesheet" />
+    <style>
+        .login-right-header {
+            font-size: 32px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="overlay hidden"></div>
+    <div id="toast"></div>
+
+    <header class="header ">
+
+        <div class="header__logo d-flex col-xl-12">
+            <div href="#" class="div-img col-xl-3">
+                <a href="./trangchu"> <a href="./index.html"><img src="./img/logo/AdminLTELogo.png" alt=""></a> </a>
+                <a href="#" class="trangchu">2023-HanaPower</a>
+            </div>
+            <div class="col-xl-6">
+                <div class="header__navbar ">
+                    <a href="index.html" class="trangchu">2023-HanaPower</a>
+                    <ul class="navbar__items d-flex">
+
+                        <li class="navbar__item"> <a href="./Statistical.html" class="">Statistical</a>
+
+                        </li>
+                        <li class="navbar__item"> <a href="./Chart.html" class="">Chart</a>
+
+                        </li>
+                        <li class="navbar__item"> <a href="./Video.html" class="">Video</a>
+
+                        </li>
+                        <li class="navbar__item"> <a href="#" class="">Report</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-3 user">
+                <a href="dangnhap.html" class=""> <i class="fas fa-user-circle icon-user"></i></a>
+                <a href="giohang.html" class=""><i class="fas fa-shopping-cart icon-cart"></i></i></a>
+            </div>
+        </div>
+
+    </header>
+    <!-- slide show -->
+
+    <!-- end slide show -->
+    <div class="product">
+        <div class="container">
+            <div class="login-right col-xl-8">
+                <div>
+                    <p class="login-right-header">Thông tin tài khoản</p>
+                    <form class="user-form">
+                        <div class="form-group"><label for="exampleInputPassword1">Tên:</label><input type="text"
+                                class="form-control" id="exampleInputPassword1" name="name"
+                                placeholder="Vui lòng nhập tên của bạn" required="" value="Người dùng thử nghiệm">
+                        </div>
+                        <div class="form-group"><label for="exampleInputEmail1">Email:</label><input type="email"
+                                class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp"
+                                placeholder="Vui lòng nhập nhập email" disabled="" value="abc123@gmail.com"></div>
+                        <div class="form-group"><label for="exampleInputPhone">Số điện thoại liên hệ:</label><input
+                                type="text" class="form-control" id="exampleInputPhone" name="numberPhone"
+                                aria-describedby="emailHelp" placeholder="Vui lòng nhập số điện thoại"
+                                value="0123456789"></div>
+                        <div class="form-group"><label for="exampleInputAddress">Địa chỉ:</label><textarea type="text"
+                                class="form-control" id="exampleInputAddress" name="address"
+                                aria-describedby="emailHelp"
+                                placeholder="Vui lòng nhập địa chỉ">Bạn có thể thử chức năng xác nhận mail khi nhận hàng bằng cách đặt hàng bằng cách nhập form bên ngoài hoặc đăng kí 1 tài khoản bằng email của bạn và đặt hàng bằng tài khoản vừa tạo.</textarea>
+                        </div>
+                        <div class="div-btn"><button type="submit" class="btn btn-submit">Chỉnh sửa</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer ">
+        <h3 class="footer-title text-center ">
+            Nhóm 6 - Web thời trang
+        </h3>
+
+        <div class="col-xl-12 container d-flex">
+            <div class="col-xl-3  text-center">
+                <p class="">MSSV: B1906499</p>
+                <p class="">Họ Tên: Nguyễn Lê Anh Khoa</p>
+            </div>
+            <div class="col-xl-3 text-center">
+
+                <p class="">MSSV: B1910381</p>
+                <p class="">Họ Tên: Hà Gia Huy</p>
+            </div>
+            <div class="col-xl-3 text-center">
+
+                <p class="">MSSV: B1906507</p>
+                <p class="">Họ Tên: Nguyễn Văn Lái</p>
+            </div>
+            <div class="col-xl-3 text-center">
+
+                <p class="">MSSV: B1906595</p>
+                <p class="">Họ Tên: Phạm Bảo Trí</p>
+            </div>
+
+        </div>
+        <div id="go-to-top">
+            <a class="btn-gototop"><i class="fas fa-arrow-up"></i></a>
+        </div>
+
+        <!-- end modal -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.5/js/lightslider.min.js"></script>
+        <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+.login-right {
+  padding-top: 36px;
+  margin: 0 auto;
+}
+
+.login-right .user-form {
+  border: none;
+}
+
+.login-right .div-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.login-right .div-btn .btn-submit {
+  border: 1px solid;
+  border-radius: 250px;
+}
+
+.login-right .cart-right-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login-right .cart-right-items {
+  list-style: none;
+  padding: 0;
+  border: 2px solid #242052;
+  border-radius: 10px;
+}
+
+.login-right .cart-right-items span {
+  margin: auto;
+}
+
+.login-right .cart-right-items .cart-right-header,
+.login-right .cart-right-items .cart-right-item {
+  padding: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid;
+  cursor: pointer;
+  text-align: center;
+}
+
+.login-right .cart-right-items .cart-right-header .sumPrice .icon-clear,
+.login-right .cart-right-items .cart-right-item .sumPrice .icon-clear {
+  position: absolute;
+  top: -29px;
+  right: -14px;
+}
+
+.login-right .cart-right-items .cart-right-header .sumPrice .icon-clear:hover,
+.login-right .cart-right-items .cart-right-item .sumPrice .icon-clear:hover {
+  opacity: 0.8;
+  background-color: #ccc;
+}
+
+.login-right .cart-right-items .cart-right-header .gr-icon-change,
+.login-right .cart-right-items .cart-right-item .gr-icon-change {
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+.login-right .cart-right-items .cart-right-header .gr-icon-change .icon-change,
+.login-right .cart-right-items .cart-right-item .gr-icon-change .icon-change {
+  font-size: 24px;
+  color: #53382c;
+}
+
+.login-right .cart-right-items .cart-right-header .gr-icon-change .icon-disabled,
+.login-right .cart-right-items .cart-right-item .gr-icon-change .icon-disabled {
+  color: #ccc;
+}
+
+.login-right .cart-right-items .cart-right-header .gr-icon-change .current-value,
+.login-right .cart-right-items .cart-right-item .gr-icon-change .current-value {
+  padding: 0 12px;
+  line-height: 36px;
+}
+
+.login-right .cart-right-items .cart-right-header, .login-right .cart-right-items .cart-right-footer {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login-right .cart-right-items .cart-right-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 6px;
+}
+/*# sourceMappingURL=thongtin.css.map */
